@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>발산 가라오케 업체 비교 — 비교 분석 및 조건별 선택 기준</title>
+<meta name="description" content="발산 지역 가라오케 업체를 체계적으로 비교합니다. 이용 조건, 시설 특징, 적합한 상황을 분석하여 최적의 선택을 지원합니다.">
+<meta name="keywords" content="발산 가라오케, 가라오케 비교, 가라오케 업체, 노래방 비교, 발산 노래방, 프라이빗 노래방">
+<meta property="og:title" content="발산 가라오케 업체 비교 — 비교 분석 및 조건별 선택 기준">
+<meta property="og:description" content="발산 지역 가라오케 업체를 체계적으로 비교합니다. 이용 조건, 시설 특징, 적합한 상황을 분석하여 최적의 선택을 지원합니다.">
+<meta property="og:type" content="website">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Serif+KR:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--color-bg:#0a0a0f;
+--color-surface:#13131a;
+--color-surface-alt:#1a1a24;
+--color-border:#2a2a36;
+--color-border-subtle:#1e1e28;
+--color-text-primary:#e8e6e1;
+--color-text-secondary:#9a9687;
+--color-text-muted:#5e5b53;
+--color-accent:#c4a265;
+--color-accent-dim:#8b7340;
+--color-accent-glow:rgba(196,162,101,0.12);
+--font-display:'Playfair Display',serif;
+--font-heading:'Cormorant Garamond',serif;
+--font-body:'Noto Serif KR',serif;
+--font-mono:'IBM Plex Mono',monospace;
+--space-xs:4px;--space-sm:8px;--space-md:16px;--space-lg:32px;--space-xl:64px;--space-2xl:128px;
+--max-width:1140px;--max-width-narrow:780px;
+}
+body{background:var(--color-bg);color:var(--color-text-primary);font-family:var(--font-body);font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:var(--color-accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* NAV */
+.q-nav-7vz9{position:sticky;top:0;z-index:100;background:rgba(10,10,15,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--color-border-subtle);padding:0 var(--space-lg)}
+.q-nav-7vz9-inner{max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.q-nav-7vz9-logo{font-family:var(--font-display);font-size:18px;letter-spacing:0.04em;color:var(--color-text-primary);font-weight:700}
+.q-nav-7vz9-links{display:flex;gap:var(--space-lg);list-style:none}
+.q-nav-7vz9-links a{font-family:var(--font-mono);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-text-muted);transition:color .2s}
+.q-nav-7vz9-links a:hover,.q-nav-7vz9-links a.active{color:var(--color-accent);text-decoration:none}
+@media(max-width:768px){
+.q-nav-7vz9-links{display:none}
+.q-nav-7vz9{padding:0 var(--space-md)}
+}
+
+/* HERO */
+.q-hero-7vz9{max-width:var(--max-width);margin:0 auto;padding:var(--space-2xl) var(--space-lg) var(--space-xl)}
+.q-hero-7vz9-eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-accent-dim);margin-bottom:var(--space-md)}
+.q-hero-7vz9-title{font-family:var(--font-display);font-size:clamp(36px,5vw,64px);font-weight:700;line-height:1.15;color:var(--color-text-primary);margin-bottom:var(--space-lg)}
+.q-hero-7vz9-subtitle{font-family:var(--font-heading);font-size:clamp(18px,2.2vw,24px);color:var(--color-text-secondary);line-height:1.6;max-width:640px;font-weight:400}
+
+/* SECTION */
+.q-section-7vz9{max-width:var(--max-width);margin:0 auto;padding:0 var(--space-lg) var(--space-xl)}
+.q-section-7vz9-divider{border:none;border-top:1px solid var(--color-border-subtle);margin:var(--space-xl) auto;max-width:var(--max-width)}
+.q-section-7vz9-heading{font-family:var(--font-heading);font-size:clamp(22px,3vw,32px);font-weight:600;color:var(--color-text-primary);margin-bottom:var(--space-lg);line-height:1.35}
+.q-section-7vz9-eyebrow{font-family:var(--font-mono);font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-accent-dim);margin-bottom:var(--space-md);display:block}
+
+/* CARD GRID */
+.q-cards-7vz9{display:grid;gap:var(--space-lg)}
+.q-cards-7vz9.cols-2{grid-template-columns:repeat(2,1fr)}
+.q-cards-7vz9.cols-3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:768px){
+.q-cards-7vz9.cols-2,.q-cards-7vz9.cols-3{grid-template-columns:1fr}
+}
+.q-card-7vz9{background:var(--color-surface);border:1px solid var(--color-border-subtle);border-radius:2px;padding:var(--space-lg);transition:border-color .25s}
+.q-card-7vz9:hover{border-color:var(--color-accent-dim)}
+.q-card-7vz9-num{font-family:var(--font-mono);font-size:11px;color:var(--color-accent-dim);letter-spacing:0.08em;margin-bottom:var(--space-sm)}
+.q-card-7vz9-title{font-family:var(--font-heading);font-size:20px;font-weight:600;color:var(--color-text-primary);margin-bottom:var(--space-sm);line-height:1.35}
+.q-card-7vz9-text{font-size:14px;color:var(--color-text-secondary);line-height:1.75}
+.q-card-7vz9-tag{display:inline-block;font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-accent);border:1px solid var(--color-accent-dim);padding:2px 10px;margin-top:var(--space-md);border-radius:1px}
+
+/* WIDE CARD */
+.q-wide-7vz9{background:var(--color-surface);border:1px solid var(--color-border-subtle);padding:var(--space-xl);display:grid;grid-template-columns:1fr 1fr;gap:var(--space-xl);align-items:start}
+@media(max-width:768px){.q-wide-7vz9{grid-template-columns:1fr;padding:var(--space-lg)}}
+
+/* LIST */
+.q-list-7vz9{list-style:none;padding:0}
+.q-list-7vz9 li{padding:var(--space-md) 0;border-bottom:1px solid var(--color-border-subtle);font-size:14px;color:var(--color-text-secondary);line-height:1.7;display:flex;gap:var(--space-md);align-items:baseline}
+.q-list-7vz9 li::before{content:'';width:6px;height:6px;background:var(--color-accent-dim);border-radius:50%;flex-shrink:0;margin-top:8px}
+
+/* QUOTE BLOCK */
+.q-quote-7vz9{border-left:2px solid var(--color-accent-dim);padding-left:var(--space-lg);margin:var(--space-lg) 0}
+.q-quote-7vz9 p{font-family:var(--font-heading);font-size:clamp(18px,2vw,22px);color:var(--color-text-secondary);line-height:1.65;font-style:italic}
+
+/* TABLE */
+.q-table-7vz9-wrap{overflow-x:auto;margin:var(--space-lg) 0}
+.q-table-7vz9{width:100%;border-collapse:collapse;font-size:13px}
+.q-table-7vz9 th{font-family:var(--font-mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-accent-dim);text-align:left;padding:var(--space-md) var(--space-md);border-bottom:1px solid var(--color-border)}
+.q-table-7vz9 td{padding:var(--space-md);border-bottom:1px solid var(--color-border-subtle);color:var(--color-text-secondary);vertical-align:top;line-height:1.65}
+.q-table-7vz9 tr:hover td{background:var(--color-accent-glow)}
+
+/* FAQ */
+.q-faq-7vz9{max-width:var(--max-width-narrow)}
+.q-faq-7vz9-item{border-bottom:1px solid var(--color-border-subtle);padding:var(--space-lg) 0}
+.q-faq-7vz9-q{font-family:var(--font-heading);font-size:18px;font-weight:600;color:var(--color-text-primary);line-height:1.4;margin-bottom:var(--space-sm)}
+.q-faq-7vz9-a{font-size:14px;color:var(--color-text-secondary);line-height:1.8}
+
+/* FOOTER */
+.q-footer-7vz9{border-top:1px solid var(--color-border-subtle);padding:var(--space-xl) var(--space-lg);margin-top:var(--space-xl)}
+.q-footer-7vz9-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-md)}
+.q-footer-7vz9-text{font-family:var(--font-mono);font-size:11px;color:var(--color-text-muted);letter-spacing:0.06em}
+
+/* PROSE */
+.q-prose-7vz9{max-width:var(--max-width-narrow)}
+.q-prose-7vz9 p{margin-bottom:var(--space-md);font-size:15px;color:var(--color-text-secondary);line-height:1.85}
+.q-prose-7vz9 p:last-child{margin-bottom:0}
+.q-prose-7vz9 strong{color:var(--color-text-primary);font-weight:700}
+
+/* INFO BAND */
+.q-band-7vz9{display:flex;gap:var(--space-lg);flex-wrap:wrap;margin:var(--space-lg) 0}
+.q-band-7vz9-item{flex:1;min-width:160px;text-align:center;padding:var(--space-lg);background:var(--color-surface);border:1px solid var(--color-border-subtle)}
+.q-band-7vz9-label{font-family:var(--font-mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-xs)}
+.q-band-7vz9-value{font-family:var(--font-display);font-size:28px;font-weight:700;color:var(--color-accent)}
+
+/* TWO COL TEXT */
+.q-twocol-7vz9{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-xl)}
+@media(max-width:768px){.q-twocol-7vz9{grid-template-columns:1fr}}
+
+/* HIGHLIGHT BOX */
+.q-highlight-7vz9{background:var(--color-accent-glow);border:1px solid var(--color-accent-dim);border-radius:2px;padding:var(--space-lg) var(--space-xl)}
+.q-highlight-7vz9-label{font-family:var(--font-mono);font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-accent);margin-bottom:var(--space-sm)}
+.q-highlight-7vz9-text{font-size:14px;color:var(--color-text-primary);line-height:1.8}
+
+/* MISC */
+.q-spacer-7vz9{height:var(--space-xl)}
+@media(max-width:768px){.q-spacer-7vz9{height:var(--space-lg)}}
+</style>
+  <link rel="canonical" href="https://balsan-karaoke-note.go-apgujeong-nrb.xyz/about.html">
+  <meta property="og:url" content="https://balsan-karaoke-note.go-apgujeong-nrb.xyz/about.html">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="q-nav-7vz9">
+<div class="q-nav-7vz9-inner">
+<a href="#" class="q-nav-7vz9-logo">발산 가라오케 비교</a>
+<ul class="q-nav-7vz9-links">
+<li><a href="#">비교</a></li>
+<li><a href="#" class="active">정보</a></li>
+<li><a href="#">업체 목록</a></li>
+<li><a href="#">이용 안내</a></li>
+<li><a href="#">Q&A</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- HERO -->
+<header class="q-hero-7vz9">
+<p class="q-hero-7vz9-eyebrow">Regional Insight</p>
+<h1 class="q-hero-7vz9-title">발산, 가라오케를 잘 고르는 사람들의 정보 노트</h1>
+<p class="q-hero-7vz9-subtitle">발산역 근방 가라오케 시장을 처음 접하는 사람도, 새로 이사 온 사람도 참고할 수 있도록 이 동네 가라오케의 구조와 특징을 정리했습니다.</p>
+</header>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 지역 맥락 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">01 — 발산역 일대 이해하기</span>
+<h2 class="q-section-7vz9-heading">발산역 주변은 어떤 동네인가</h2>
+<div class="q-prose-7vz9">
+<p>발산역은 서울 강서구에 위치한 지하철 9호선 역으로, 주변으로 주거 단지와 상가 밀집 지역이 공존하는 곳입니다. 특히 <strong>우장산로와 공항대로 사이 상권</strong>에는 식당·술집·오락시설이 밀집해 있어 퇴근 후 모임 장소로 활용되는 빈도가 높습니다.</p>
+<p>이 지역 가라오케 업체들은 크게 두 가지 성격으로 나뉩니다. 하나는 <strong>주거 밀집 지역 내 가정 친화형</strong> 업체이고, 다른 하나는 <strong>상업대로를 끼고 영업하는 유흥 밀집형</strong> 업체입니다. 밤 시간대 분위기·가격대·접근성이 모두 다르기 때문에 목적에 맞는 선택이 중요합니다.</p>
+</div>
+</section>
+
+<!-- STAT BAND -->
+<section class="q-section-7vz9">
+<div class="q-band-7vz9">
+<div class="q-band-7vz9-item">
+<p class="q-band-7vz9-label">9호선 역세권</p>
+<p class="q-band-7vz9-value">직역</p>
+</div>
+<div class="q-band-7vz9-item">
+<p class="q-band-7vz9-label">상권 밀집도</p>
+<p class="q-band-7vz9-value">중상</p>
+</div>
+<div class="q-band-7vz9-item">
+<p class="q-band-7vz9-label">주요 이용 시간대</p>
+<p class="q-band-7vz9-value">18–02시</p>
+</div>
+<div class="q-band-7vz9-item">
+<p class="q-band-7vz9-label">업종 특성</p>
+<p class="q-band-7vz9-value">혼합형</p>
+</div>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 업체 유형 분류 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">02 — 업체 유형 분류</span>
+<h2 class="q-section-7vz9-heading">발산 가라오케, 어떤 종류가 있는지 파악부터</h2>
+<div class="q-cards-7vz9 cols-3">
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">TYPE A</p>
+<h3 class="q-card-7vz9-title">프라이빗 룸형</h3>
+<p class="q-card-7vz9-text">문을 닫으면 나만의 공간. 일반적으로 룸 단위로 예약·이용하며, 소규모 모임이나 연인·가족 단위 이용에 적합합니다. 음향 시설이 비교적 고급인 곳도不少합니다.</p>
+<span class="q-card-7vz9-tag">소규모 모임</span>
+</div>
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">TYPE B</p>
+<h3 class="q-card-7vz9-title">대형 홀 / 코인 노래방</h3>
+<p class="q-card-7vz9-text">혼자 와서 부르고 가는 코인형부터, 여러 룸을 갖춘 대형 매장까지. 비교적 접근문턱이 낮고, 시간 단위 요금으로 부담 없이 이용할 수 있습니다.</p>
+<span class="q-card-7vz9-tag">부담 없이 이용</span>
+</div>
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">TYPE C</p>
+<h3 class="q-card-7vz9-title">주류 병행 프리미엄형</h3>
+<p class="q-card-7vz9-text">와인·위스키·안주 메뉴를 갖추고 룸 인테리어에 신경 쓴 곳. 회사 회식이나 접대 목적, 특별한 날 이용 시 고려할 만합니다. 가격대는 당연히 높은 편.</p>
+<span class="q-card-7vz9-tag">회식 · 특별 모임</span>
+</div>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 비교 기준 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">03 — 비교할 때 봐야 할 것</span>
+<h2 class="q-section-7vz9-heading">업체 고를 때 실제로 비교해야 할 포인트</h2>
+<div class="q-twocol-7vz9">
+<div class="q-prose-7vz9">
+<p>가라오케 비교할 때 가장 흔히 빠지는 실수는 <strong>"위치만 보고 바로 결정하는 것"</strong>입니다. 물론 접근성도 중요하지만, 룸 상태·음향 장비·영업 시간·가격 구조까지 함께 봐야 합니다.</p>
+<p>예를 들어, 발산역 1번 출구 근처 어떤 업체는 기본 1시간에 만오천원이지만, 다른 곳은 30분 단위 만원입니다. 모임 시간이 2시간이면 전자가 3만원, 후자는 4만원이 됩니다. 이런 계산이 의외로 중요합니다.</p>
+</div>
+<div class="q-prose-7vz9">
+<p>또 하나 빠뜨리기 쉬운 게 <strong>부가비용 구조</strong>입니다. 룸 차지(가라오케 이용료 외 별도 요금)가 붙는 곳이 있고, 안 붙는 곳이 있고, 음료·안주는 필수 주문인데 미리 안 알려주는 곳도 있습니다.</p>
+<p>시설 등급도 그냥 "좋다/나쁘다"로만 보면 안 됩니다. 마이크 상태, 모니터 해상도, 곡 수, 에어컨 온도, 의자 편안함까지 합쳐서 "내 기준에 맞는지"가 진짜 비교 포인트예요.</p>
+</div>
+</div>
+
+<div class="q-table-7vz9-wrap">
+<table class="q-table-7vz9">
+<thead>
+<tr>
+<th>비교 항목</th>
+<th>확인 포인트</th>
+<th>왜 중요한가</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시간 요금 구조</td>
+<td>최소 단위, 연장 시 추가 요금, 심야 할증 여부</td>
+<td>실제 지출액과 직결</td>
+</tr>
+<tr>
+<td>룸 구성</td>
+<td>최소 인원, 최대 인원, 룸 간 방음 상태</td>
+<td>모임 규모에 맞는지</td>
+</tr>
+<tr>
+<td>음향 시설</td>
+<td>마이크 종류, 모니터, 곡 업데이트 주기</td>
+<td>이용 만족도에 직결</td>
+</tr>
+<tr>
+<td>부가비용</td>
+<td>룸 차지, 최소 주문, 카드 수수료</td>
+<td>숨은 비용 방지</td>
+</tr>
+<tr>
+<td>영업 시간</td>
+<td>오픈/마감, 예약 가능 시간, 대기 시간</td>
+<td>방문 시간대 결정</td>
+</tr>
+<tr>
+<td>위치 · 접근성</td>
+<td>역 거리, 주차 가능 여부, 건물 입구 상태</td>
+<td>이동 편의성</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 지역 시그널 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">04 — 발산만의 특징</span>
+<h2 class="q-section-7vz9-heading">발산 가라오케 시장의 지역적 특징</h2>
+<div class="q-quote-7vz9">
+<p>"발산역 근처 가라오케는 강남보다는 가격이 착하고, 영등포보다는 시설이 괜찮은 어딘가 중간 어딘가에 있어요. 동네 느낌이 강해서 처음 가면 헷갈리지만, 익숙해지면 꽤 편한 곳입니다."</p>
+</div>
+
+<div class="q-cards-7vz9 cols-2" style="margin-top:var(--space-lg)">
+<div class="q-card-7vz9">
+<h3 class="q-card-7vz9-title">가성비 포지션</h3>
+<p class="q-card-7vz9-text">강서구 전체로 보면 발산역 일대 가라오케는 대체로 중저가대에 속합니다. 프리미엄 매장도 있지만, 대부분 일반적인 가격대에서 운영되고 있어 부담 없이 방문할 수 있습니다.</p>
+</div>
+<div class="q-card-7vz9">
+<h3 class="q-card-7vz9-title">야간 이동 편의</h3>
+<p class="q-card-7vz9-text">9호선은 심야까지 운행 시간이 비교적 넉넉해서 퇴근 후 모임 시 대중교통 활용이 어렵지 않습니다. 다만 자가용 이용 시 주차 공간 확보가 어려운 곳도 있으니 미리 확인이 필요합니다.</p>
+</div>
+<div class="q-card-7vz9">
+<h3 class="q-card-7vz9-title">주변 연계 식당</h3>
+<p class="q-card-7vz9-text">가라오케 전후 식사·술자리를 함께안배하기 좋은 환경입니다. 역 주변에 고깃집·횟집·술안주 전문점이 밀집해 있어 "밥 먹고 노래방" 코스를 쉽게 구성할 수 있습니다.</p>
+</div>
+<div class="q-card-7vz9">
+<h3 class="q-card-7vz9-title">계절·요일 변동</h3>
+<p class="q-card-7vz9-text">금요일·토요일 저녁은 대기가 길어질 수 있고, 평일 저녁은 비교적 여유로운 편입니다. 연말·연시·방학 시즌에는 예약 필수인 곳도 있습니다.</p>
+</div>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 이용 시나리오 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">05 — 상황별 추천</span>
+<h2 class="q-section-7vz9-heading">어떤 상황이냐에 따라 고르는 게 달라집니다</h2>
+<div class="q-prose-7vz9" style="max-width:var(--max-width);margin-bottom:var(--space-lg)">
+<p>가라오케라고 다 같은 가라오케가 아닙니다. "누구와", "왜", "언제"에 따라 Ideally 맞는 업체가 완전히 달라요. 아래에서 본인 상황에 가장 가까운 시나리오를 찾아보세요.</p>
+</div>
+<div class="q-cards-7vz9 cols-3">
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">SCENARIO 1</p>
+<h3 class="q-card-7vz9-title">퇴근 후 동료 모임</h3>
+<p class="q-card-7vz9-text">3~6명 규모, 간단히 술 한 잔 하면서 노래 한 곡. 접근성 좋은 역 근처 프라이빗 룸이 딱입니다. 2시간 기준으로 예산 정한 뒤 비교하면 효율적이에요.</p>
+</div>
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">SCENARIO 2</p>
+<h3 class="q-card-7vz9-title">혼자 노래 연습</h3>
+<p class="q-card-7vz9-text">코인 노래방이나 소형 매장이 적합. 곡 수가 많고 마이크 상태가 좋은 곳을 우선으로. 시간당 요금이 핵심이니 미리 곡 리스트를 정해가면 시간 절약됩니다.</p>
+</div>
+<div class="q-card-7vz9">
+<p class="q-card-7vz9-num">SCENARIO 3</p>
+<h3 class="q-card-7vz9-title">생일파티 · 기념일</h3>
+<p class="q-card-7vz9-text">8명 이상이면 룸 크기를 먼저 확인. 케이크 반입 가능 여부, 인테리어 분위기, 음향 시설이 중요합니다. 사전에 예약하고 공간 상태를 확인하는 게 안전해요.</p>
+</div>
+</div>
+
+<div class="q-highlight-7vz9" style="margin-top:var(--space-lg)">
+<p class="q-highlight-7vz9-label">Tip</p>
+<p class="q-highlight-7vz9-text">방문 전 반드시 업체에 전화하거나 메시지로 "지금 예약 가능 여부, 룸 차지 유무, 최소 주문 조건"을 확인하세요. 온라인 정보와 실제 운영이 다를 수 있습니다.</p>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: FAQ -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">06 — 자주 묻는 질문</span>
+<h2 class="q-section-7vz9-heading">알아두면 편한 Q&A</h2>
+<div class="q-faq-7vz9">
+<div class="q-faq-7vz9-item">
+<p class="q-faq-7vz9-q">예약 없이 바로 가도 되나요?</p>
+<p class="q-faq-7vz9-a">평일에는 대부분 바로 이용 가능하지만, 금요일·토요일 저녁은 대기가 발생할 수 있습니다. 특히 10인 이상 단체는 사전 예약을 추천합니다.</p>
+</div>
+<div class="q-faq-7vz9-item">
+<p class="q-faq-7vz9-q">룸 차지가 뭔가요?</p>
+<p class="q-faq-7vz9-a">가라오케 이용료(시간 요금)와 별도로 부과되는 룸 사용료를 말합니다. 업체마다 명칭이나 부과 방식이 다를 수 있으니, 방문 전 확인하는 게 좋습니다.</p>
+</div>
+<div class="q-faq-7vz9-item">
+<p class="q-faq-7vz9-q">발산역에서 가장 가까운 가라오케는 어디인가요?</p>
+<p class="q-faq-7vz9-a">역 출구 바로 앞부터 도보 5~10분 거리까지 여러 업체가 분포하고 있습니다. 정확한 위치는 최신 지도 서비스를 통해 확인하시는 것을 추천합니다.</p>
+</div>
+<div class="q-faq-7vz9-item">
+<p class="q-faq-7vz9-q">초등학생이나 아이도 이용할 수 있나요?</p>
+<p class="q-faq-7vz9-a">업체마다 정책이 다릅니다. 일부 업체는 오후 시간대에 가족 단위 이용이 가능하지만, 주류를 취급하는 매장은 연령 제한이 있을 수 있습니다. 반드시 사전 확인이 필요합니다.</p>
+</div>
+<div class="q-faq-7vz9-item">
+<p class="q-faq-7vz9-q">카드 결제가 되나요?</p>
+<p class="q-faq-7vz9-a">대부분 카드 결제가 가능하지만, 일부 소규모 매장은 현금 결제만 지원하거나 카드 수수료가 별도로 붙는 경우도 있습니다. 미리 확인하시면 좋습니다.</p>
+</div>
+</div>
+</section>
+
+<hr class="q-section-7vz9-divider">
+
+<!-- SECTION: 참고 사항 -->
+<section class="q-section-7vz9">
+<span class="q-section-7vz9-eyebrow">07 — 참고 사항</span>
+<h2 class="q-section-7vz9-heading">이 페이지의 정보 활용 시 유의점</h2>
+<div class="q-prose-7vz9">
+<p>본 페이지에 기재된 내용은 발산 지역 가라오케 시장에 대한 일반적 분석과 정보 제공을 목적으로 합니다. 특정 업체의 영업 상태·요금·시설은 시간에 따라 변동될 수 있으므로, 방문 전 해당 업체에 직접 확인하시는 것을 권장합니다.</p>
+<p>또한 업체 이름·사진·구체적 요금 등은 제공된 정보에 없는 항목으로, 본 페이지에서는 일절 기재하지 않습니다. 정확한 업체 정보는 최신 온라인 지도·리뷰 플랫폼을 통해 직접 확인해 주세요.</p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="q-footer-7vz9">
+<div class="q-footer-7vz9-inner">
+<p class="q-footer-7vz9-text">© 2025 발산 가라오케 비교 정보 — 지역 시장 분석 및 비교 기준 제공</p>
+<p class="q-footer-7vz9-text">본 페이지는 정보 제공 목적이며, 특정 업체의 홍보나 보증이 아닙니다.</p>
+</div>
+</footer>
+
+</body>
+</html>
